@@ -1,0 +1,6 @@
+std = "roblox"
+exclude = [".pesde/*", "*_packages/*"]
+
+[lints]
+shadowing = "allow"
+mixed_table = "allow"

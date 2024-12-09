@@ -1,0 +1,26 @@
+name = "metamethods/peam"
+version = "0.1.0"
+description = "A simple beam builder on Roblox"
+authors = ["metamethods"]
+repository = "https://github.com/metamethods/peam"
+license = "MIT"
+
+[target]
+environment = "roblox"
+
+[indices]
+default = "https://github.com/daimond113/pesde-index"
+
+[wally_indices]
+default = "https://github.com/UpliftGames/wally-index"
+
+[scripts]
+roblox_sync_config_generator = ".pesde/scripts/roblox_sync_config_generator.luau"
+sourcemap_generator = ".pesde/scripts/sourcemap_generator.luau"
+
+[dev_dependencies]
+scripts = { name = "pesde/scripts_rojo", version = "^0.1.0", target = "lune" }
+rojo = { name = "pesde/rojo", version = "^7.4.4", target = "lune" }
+
+[dependencies]
+vide = { wally = "wally#aloroid/vide-with-types", version = "^0.2.7" }
