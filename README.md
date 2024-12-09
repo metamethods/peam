@@ -1,10 +1,14 @@
 <div align="center">
-    <img src="assets/logo.png" alt="Peam" height="64" />
+    <img src="assets/logo.png" alt="Peam" height="128" />
 </div>
 
+<br />
+
 <div align="center">
-    <a href="https://create.roblox.com/store/asset/96990325057372/Peam"><img src="assets/creatorStore.png" alt="Creator Store" height="32"></a>
+    <a href="https://create.roblox.com/store/asset/96990325057372/Peam"><img src="assets/creatorStore.png" alt="Creator Store" height="64"></a>
 </div>
+
+<br />
 
 **Peam** (a combonation of "Peak" and "Beam") is a simple Roblox plugin to easily create beams via selecting attachments.
 
